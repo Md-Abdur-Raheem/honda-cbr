@@ -204,7 +204,7 @@ header {
 /* FAQ Section Styles */
 .faq-container {
     margin-top: 160px;
-    margin-bottom: 140px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -227,6 +227,46 @@ header {
 
 .faq-text {
     color: #6C6C6C;
+}
+
+
+/* Confusion Section Styles */
+
+.confusion-image {
+    width: 120px;
+}
+
+.confusion-text h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.confusion-text {
+    width: fit-content;
+}
+
+/* Brands Styles */
+.brands-heading>h1 {
+    text-align: center;
+    color: #0A0826;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    margin-top: 130px;
+}
+
+.brands-heading>h1>span {
+    color: #E76F51;
+}
+
+.brandas-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+.brand-image {
+    width: 100px;
 }
 
 
@@ -277,6 +317,35 @@ header {
         margin-bottom: 115px;
     }
 
+    /* Confusion Section Styles */
+    .confusions {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .confusion-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .confusion-input {
+        margin-bottom: 10px;
+    }
+
+    /* Brands Styles */
+    .brandas-container a {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .brandas-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
+    }
 }
 
 /* Media query for small device */
@@ -285,6 +354,28 @@ header {
     /* Common Styles */
     * {
         width: 100%;
+    }
+
+
+    /*---------- Main Styles---------- */
+
+    /* Feature Bikes Section Styles */
+    .feature-image img {
+        max-width: 200px;
+    }
+
+    /* Brands Styles */
+    .brandas-container a {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .brandas-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
     }
 }
 
@@ -302,6 +393,20 @@ header {
     /* Feature Bikes Section Styles */
     .feature-image img {
         max-width: 200px;
+    }
+
+    /* Brands Styles */
+    .brandas-container a {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .brandas-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
     }
 }
 
