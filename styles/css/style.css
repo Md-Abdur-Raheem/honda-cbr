@@ -201,6 +201,35 @@ header {
 }
 
 
+/* FAQ Section Styles */
+.faq-container {
+    margin-top: 160px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.faq-image {
+    max-width: 430px;
+}
+
+.faq-container>h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 55px;
+}
+
+.faq-container>h1>span {
+    font-size: 48px;
+    font-weight: 700;
+    color: #E76F51;
+}
+
+.faq-text {
+    color: #6C6C6C;
+}
+
+
 
 
 /* ----------Media Query---------- */
