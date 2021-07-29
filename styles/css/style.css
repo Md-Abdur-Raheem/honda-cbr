@@ -60,6 +60,15 @@ header {
     color: #E0E0E0;
 }
 
+.purchase-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.purchase-btn a:hover {
+    color: white;
+}
+
 .purchase-btn {
     color: white;
     background-color: #E76F51;
