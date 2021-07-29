@@ -12,11 +12,10 @@
 /* Header Styles */
 header {
     background-color: #264653;
+    padding-bottom: 100px;
 }
 
 /* Navigation Bar Styles */
-.navigation-container {}
-
 .nav-menu a {
     text-decoration: none;
     color: white;
@@ -26,12 +25,60 @@ header {
     color: white;
 }
 
-.nav-menu-btn {
+.nav-btn {
+    color: white;
     background-color: #E76F51;
-    border-radius: 10px;
-    width: 500px;
+    border: none;
+    width: fit-content;
+    padding: 10px 24px;
+    border-radius: 5px;
 }
 
+/* Hero Section Styles */
+.hero-container {
+    margin-top: 70px;
+}
+
+.hero-details {
+    margin-right: 90px;
+}
+
+.top-title {
+    color: white;
+    font-size: 14px;
+}
+
+.hero-details>h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.bottom-title {
+    font-size: 16px;
+    color: #E0E0E0;
+}
+
+.purchase-btn {
+    color: white;
+    background-color: #E76F51;
+    border: none;
+    width: fit-content;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.modal-heading h5 {
+    color: tomato;
+    font-weight: 700;
+}
+
+.modal-text h2 {
+    color: #E76F51;
+    font-weight: 500;
+
+}
 
 
 
@@ -46,9 +93,18 @@ header {
         width: 100%;
     }
 
-    .nav-menu-btn {
-        margin-top: 10px;
-        width: auto;
+    /* Hero Section Styles */
+    .hero-container {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-details {
+        margin: 0;
+        margin-top: 46px;
+        margin-bottom: 56px;
     }
 }
 
