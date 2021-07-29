@@ -82,6 +82,7 @@ header {
 
 
 /*---------- Main Styles---------- */
+
 /* Feature Bikes Section Styles */
 .feature-container {
     margin-top: 65px;
@@ -111,6 +112,50 @@ header {
     filter: grayscale(100%);
 }
 
+/* Latest News Section Styles */
+.news-container {
+    margin-top: 165px;
+}
+
+.news-container>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.news-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.news-text {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.read-more-btn a {
+    text-decoration: none;
+    color: #E76F51;
+}
+
+.read-more-btn {
+    background-color: white;
+    border: 1px solid #E76F51;
+    width: fit-content;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.read-more-btn:hover {
+    background-color: #E76F51;
+}
+
+.read-more-btn:hover a {
+    color: white;
+}
+
+
 
 
 
@@ -125,6 +170,7 @@ header {
     }
 
     /*---------- Header Styles---------- */
+
     /* Hero Section Styles */
     .hero-container {
         margin: 0;
@@ -140,6 +186,7 @@ header {
     }
 
     /*---------- Main Styles---------- */
+
     /* Feature Bikes Section Styles */
     .feature-container {
         margin: 0;
@@ -155,6 +202,15 @@ header {
 
     .feature-image img {
         margin-bottom: 115px;
+    }
+
+    /* Latest News Section Styles */
+    .news-card {
+        /* text-align: center; */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+
     }
 }
 
@@ -177,6 +233,7 @@ header {
     }
 
     /*---------- Main Styles---------- */
+
     /* Feature Bikes Section Styles */
     .feature-image img {
         max-width: 200px;
